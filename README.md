@@ -1,4 +1,4 @@
-# How-to-Create-Manage-Your-Github-Repository-Step-by-Step
+# How to Create & Manage Your Github Repository Step-by-Step
 ## install git
 `sudo apt-get install git`
 
@@ -16,14 +16,14 @@
 2.cd <dir_name>  
 3.git init  
 4.git remote add origin <your repository's website>  
-```
+  
 
-## online to local
-`git pull origin master`  
+          
+git pull origin master      # online to local  
+  
 
-## local to online
-```
-git add <file_name> or .   
+
+git add <file_name> or .  
 git commit -m "<description>"  
-git push origin master  
+git push origin master      # local to online  
 ```
