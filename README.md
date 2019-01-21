@@ -12,5 +12,12 @@ sudo apt-get install git
 2.cd <dir_name>
 3.git init
 4.git remote add origin <https://github.com/freshn/***********.git>
-5.git pull origin master    # online to local
+
+# online to local
+git pull origin master
+
+# locqal to online
+git add <file_name> or . 
+git commit -m "<description>"
+git push origin master
 
